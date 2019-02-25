@@ -1,0 +1,122 @@
+@media only screen and (max-width: 860px) {
+    body {
+        margin: 0 35px 0 35px;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    .product__info {
+        margin-left: 30px;
+    }  
+    .product__info-title h2 {
+        display: block;
+    }
+    .product__info h2 {
+        display: none;
+    }
+    .product__info-button {
+        display: none;
+    }
+    .product__info-details {
+        display: block;
+    }
+    .product__image-social {
+        display: block;
+    }
+    .social a {
+        display: block;
+    }
+}
+@media only screen and (max-width: 830px) {
+    .product__more {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 50px;
+        grid-template-areas: 
+            "a b"
+            "c d"
+            "e f" 
+    }
+    .product__more-title {
+        margin-left: 0;
+        text-align: center;
+    }
+    .price__closed {
+        display: none;
+    }
+    .product__more-prise {
+        top:auto;
+        bottom: 23px;
+        left: 0;
+        background-color: rgba(138, 230, 207, 0.8);
+    }
+}    
+@media only screen and (max-width: 683px) {
+    .container {
+        width: 100%;
+    }
+    body {
+        margin: 0;
+    }
+    .product__image-social {
+        display: none;
+    }
+    .product__info {
+        margin: 0 30px;
+    } 
+    .product {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product__info-title h2 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -30px;
+    }
+    .pruduct__info-btn {
+        text-align: center;
+    }
+    .product__more {
+        justify-content: center;
+        grid-template-columns: 350px;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "a"
+            "b"
+            "c"
+            "d"
+            "e"
+            "f";
+    }
+    .product__info-social {
+        display: block;
+        padding-top: 30px;
+    }
+    .product__info-details {
+        display: none;
+    }
+    .product__more-item {
+        margin: 0 30px;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .product__info-size b,
+    .product__info-color b {
+        display: inline-block;
+    }
+    .product__info-size p,
+    .product__info-color p {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .product__info-size 
+    .size__xs {
+        margin-left: 0;
+    }
+    .product__info-color
+    .aqua {
+        margin-left: 0;
+    }
+}
